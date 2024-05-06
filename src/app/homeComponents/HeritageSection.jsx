@@ -7,7 +7,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "../homeComponents/HeritageSection.css";
-import infinity from "../../../public/infinity-sign.webp";
+// import infinity from "../../../public/infinity-sign.webp";
 import Link from "next/link";
 
 const HeritageSection = () => {
@@ -52,7 +52,7 @@ const HeritageSection = () => {
       h2: "100",
       h3: "s",
       text: "of posibillities transformed",
-      img: infinity,
+      img: true
     },
     {
       id: 3,
@@ -188,7 +188,7 @@ const HeritageSection = () => {
 
                     {item.img ? (
                       <>
-                        <Image src={item.img} width={130} />
+                        <Image src={"/infinity-sign.webp"} height={0} width={130} />
                         <p className="text-base  text-gray-700 -mt-[7px]">
                           {item.text}
                         </p>
