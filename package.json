@@ -27,7 +27,7 @@
     "react-modern-drawer": "^1.2.2",
     "react-select": "^5.8.0",
     "rive-react": "^4.7.0",
-    "sharp": "^0.33.3",
+    "sharp": "^0.33.1",
     "swiper": "^11.0.5"
   },
   "devDependencies": {
