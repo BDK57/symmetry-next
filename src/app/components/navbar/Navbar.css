@@ -1,0 +1,121 @@
+/********  navbar hamburger   ********/
+
+.menu--1 label,
+.menu--2 label {
+  bottom: 0;
+}
+
+.menu--3 label,
+.menu--4 label {
+  top: 0;
+}
+
+.menu--1 label,
+.menu--3 label {
+  right: 0;
+}
+
+.menu--2 label,
+.menu--4 label {
+  left: 0;
+}
+
+/********  this input shows an icon that toggles hamburger to cross  ********/
+/********  displayed none so we dont see the input/checkbox  ********/
+
+input{
+  display: none;
+}
+
+/********  hamburger lines   ********/
+
+.line--1 {
+  stroke-width: 2 !important; /* Adjust the value to make it smaller */
+  --length: 14;
+}
+
+.line--2 {
+  stroke-width: 2 !important; /* Adjust the value to make it smaller */
+  --length: 10;
+}
+
+.line--3 {
+  stroke-width: 2 !important; /* Adjust the value to make it smaller */
+  --length: 6;
+}
+
+path {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  --length: 24;
+  --offset: -38;
+  stroke-dasharray: var(--length) var(--total-length);
+  stroke-dashoffset: var(--offset);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+label:hover circle {
+  opacity: 1;
+}
+
+.cross input:checked + svg {
+  .line--1,
+  .line--3 {
+    --length: 22.627416998;
+  }
+  .line--2 {
+    --length: 0;
+  }
+}
+
+.back input:checked + svg {
+  .line--1,
+  .line--3 {
+    --length: 8.602325267;
+  }
+}
+
+.menu--1 {
+  background-color: #3f77e9;
+  .line--1,
+  .line--3 {
+    --total-length: 126.64183044433594;
+  }
+  .line--2 {
+    --total-length: 70;
+  }
+  input:checked + svg {
+    .line--1,
+    .line--3 {
+      --offset: -94.1149185097;
+    }
+    .line--2 {
+      --offset: -50;
+    }
+  }
+}
+
+
+
+
+/***** React Hamburger *******/
+
+.hamburger-react{
+  rotate: -45deg;
+  height: 30px !important;
+  width: 30px !important;
+  right: 13px;
+}
+
+
+.hamburger-social-icons-div:hover{
+  background-image: linear-gradient(#00000000,#00000000),linear-gradient(45deg,#0d53bd 0,#13b0a8 30%,#15b03c 50%,#5d9c11 70%,#f2d500 100%);
+  border: 1px solid transparent;
+}
+
+.hamburger-social-icon:hover{
+  filter: brightness(0) invert(1);
+}

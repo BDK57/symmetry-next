@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Neumatic Gothic';
+    src: url('NeumaticGothic-Bold.eot');
+    src: local('Neumatic Gothic Bold'), local('NeumaticGothic-Bold'),
+        url('NeumaticGothic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-Bold.woff2') format('woff2'),
+        url('NeumaticGothic-Bold.woff') format('woff'),
+        url('NeumaticGothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic';
+    src: url('NeumaticGothic-Black.eot');
+    src: local('Neumatic Gothic Black'), local('NeumaticGothic-Black'),
+        url('NeumaticGothic-Black.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-Black.woff2') format('woff2'),
+        url('NeumaticGothic-Black.woff') format('woff'),
+        url('NeumaticGothic-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic Extra';
+    src: url('NeumaticGothic-ExtraBold.eot');
+    src: local('Neumatic Gothic Extra Bold'), local('NeumaticGothic-ExtraBold'),
+        url('NeumaticGothic-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-ExtraBold.woff2') format('woff2'),
+        url('NeumaticGothic-ExtraBold.woff') format('woff'),
+        url('NeumaticGothic-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic Black Oblique';
+    src: url('NeumaticGothic-BlackOblique.eot');
+    src: local('Neumatic Gothic Black Oblique'), local('NeumaticGothic-BlackOblique'),
+        url('NeumaticGothic-BlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-BlackOblique.woff2') format('woff2'),
+        url('NeumaticGothic-BlackOblique.woff') format('woff'),
+        url('NeumaticGothic-BlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic';
+    src: url('NeumaticGothic-Light.eot');
+    src: local('Neumatic Gothic Light'), local('NeumaticGothic-Light'),
+        url('NeumaticGothic-Light.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-Light.woff2') format('woff2'),
+        url('NeumaticGothic-Light.woff') format('woff'),
+        url('NeumaticGothic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic Bold Oblique';
+    src: url('NeumaticGothic-BoldOblique.eot');
+    src: local('Neumatic Gothic Bold Oblique'), local('NeumaticGothic-BoldOblique'),
+        url('NeumaticGothic-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-BoldOblique.woff2') format('woff2'),
+        url('NeumaticGothic-BoldOblique.woff') format('woff'),
+        url('NeumaticGothic-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic Light Oblique';
+    src: url('NeumaticGothic-LightOblique.eot');
+    src: local('Neumatic Gothic Light Oblique'), local('NeumaticGothic-LightOblique'),
+        url('NeumaticGothic-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-LightOblique.woff2') format('woff2'),
+        url('NeumaticGothic-LightOblique.woff') format('woff'),
+        url('NeumaticGothic-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic Extra Bold Oblique';
+    src: url('NeumaticGothic-ExtraBoldOblique.eot');
+    src: local('Neumatic Gothic Extra Bold Oblique'), local('NeumaticGothic-ExtraBoldOblique'),
+        url('NeumaticGothic-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-ExtraBoldOblique.woff2') format('woff2'),
+        url('NeumaticGothic-ExtraBoldOblique.woff') format('woff'),
+        url('NeumaticGothic-ExtraBoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic Medium Oblique';
+    src: url('NeumaticGothic-MediumOblique.eot');
+    src: local('Neumatic Gothic Medium Oblique'), local('NeumaticGothic-MediumOblique'),
+        url('NeumaticGothic-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-MediumOblique.woff2') format('woff2'),
+        url('NeumaticGothic-MediumOblique.woff') format('woff'),
+        url('NeumaticGothic-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic Semi Bold Oblique';
+    src: url('NeumaticGothic-SemiBoldOblique.eot');
+    src: local('Neumatic Gothic Semi Bold Oblique'), local('NeumaticGothic-SemiBoldOblique'),
+        url('NeumaticGothic-SemiBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-SemiBoldOblique.woff2') format('woff2'),
+        url('NeumaticGothic-SemiBoldOblique.woff') format('woff'),
+        url('NeumaticGothic-SemiBoldOblique.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic Oblique';
+    src: url('NeumaticGothic-RegularOblique.eot');
+    src: local('Neumatic Gothic Oblique'), local('NeumaticGothic-RegularOblique'),
+        url('NeumaticGothic-RegularOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-RegularOblique.woff2') format('woff2'),
+        url('NeumaticGothic-RegularOblique.woff') format('woff'),
+        url('NeumaticGothic-RegularOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic Semi';
+    src: url('NeumaticGothic-SemiBold.eot');
+    src: local('Neumatic Gothic Semi Bold'), local('NeumaticGothic-SemiBold'),
+        url('NeumaticGothic-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-SemiBold.woff2') format('woff2'),
+        url('NeumaticGothic-SemiBold.woff') format('woff'),
+        url('NeumaticGothic-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic';
+    src: url('NeumaticGothic-Medium.eot');
+    src: local('Neumatic Gothic Medium'), local('NeumaticGothic-Medium'),
+        url('NeumaticGothic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-Medium.woff2') format('woff2'),
+        url('NeumaticGothic-Medium.woff') format('woff'),
+        url('NeumaticGothic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neumatic Gothic';
+    src: url('NeumaticGothic-Regular.eot');
+    src: local('Neumatic Gothic'), local('NeumaticGothic-Regular'),
+        url('NeumaticGothic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NeumaticGothic-Regular.woff2') format('woff2'),
+        url('NeumaticGothic-Regular.woff') format('woff'),
+        url('NeumaticGothic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

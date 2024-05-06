@@ -1,0 +1,35 @@
+.swiper-button-prev::after {
+  font-size: 10px !important;
+  rotate: -45deg;
+}
+
+.swiper-button-next::after {
+  font-size: 10px !important;
+  rotate: -45deg;
+}
+
+.arrows-bg {
+  background-image: radial-gradient(at top right, #f1e522 25%, #5aa63d 60%);
+}
+
+.arrows-border-bg {
+  background-image: radial-gradient(at top right, #f1e522 25%, #5aa63d 60%);
+}
+
+.custom-arrow-border {
+  border-radius: 6px;
+}
+
+.custom-arrow-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: 6px;
+  background: linear-gradient(#5eacd4, #4d9f0c),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
