@@ -200,7 +200,7 @@ const Navbar = ({ toggleRed, setToggleRed }) => {
 
   const items = [
     getItem(
-      <div className="footer-text-color-toggle pillat-normal abbo">about</div>,
+      <div className="footer-text-color-toggle pillat-normal abbo text-2xl">about</div>,
       "sub1",
       [<></>]
     ),
@@ -208,7 +208,7 @@ const Navbar = ({ toggleRed, setToggleRed }) => {
     getItem(
       <>
         <Link href={"investorRelations"}>
-          <div className="footer-text-color-toggle pillat-normal">
+          <div className="footer-text-color-toggle pillat-normal text-2xl">
             investors relations{" "}
           </div>
         </Link>
@@ -271,7 +271,7 @@ const Navbar = ({ toggleRed, setToggleRed }) => {
     ),
 
     getItem(
-      <div className="footer-text-color-toggle pillat-normal">
+      <div className="footer-text-color-toggle pillat-normal text-2xl">
         business divisions{" "}
       </div>,
       "sub3",
@@ -311,7 +311,7 @@ const Navbar = ({ toggleRed, setToggleRed }) => {
     getItem(
       <>
         <Link href={"brands-products"}>
-          <div className="footer-text-color-toggle pillat-normal">
+          <div className="footer-text-color-toggle pillat-normal text-2xl">
             brands & products
           </div>
         </Link>
@@ -381,7 +381,7 @@ const Navbar = ({ toggleRed, setToggleRed }) => {
     getItem(
       <>
         <Link href={"clients"}>
-          <div className="footer-text-color-toggle pillat-normal">clients</div>
+          <div className="footer-text-color-toggle pillat-normal text-2xl">clients</div>
         </Link>
       </>,
       "sub5",
@@ -435,7 +435,7 @@ const Navbar = ({ toggleRed, setToggleRed }) => {
     getItem(
       <>
         <Link href={"google"}>
-          <div className="footer-text-color-toggle pillat-normal abbo">
+          <div className="footer-text-color-toggle pillat-normal abbo text-2xl">
             affiliation & partnerships
           </div>
         </Link>
@@ -447,7 +447,7 @@ const Navbar = ({ toggleRed, setToggleRed }) => {
     getItem(
       <>
         <Link href={"careers"}>
-          <div className="footer-text-color-toggle pillat-normal abbo">
+          <div className="footer-text-color-toggle pillat-normal abbo text-2xl">
             careers
           </div>
         </Link>
@@ -459,7 +459,7 @@ const Navbar = ({ toggleRed, setToggleRed }) => {
     getItem(
       <>
         <Link href={"contact-us"}>
-          <div className="footer-text-color-toggle pillat-normal abbo">
+          <div className="footer-text-color-toggle pillat-normal abbo text-2xl">
             contact us
           </div>
         </Link>
@@ -722,8 +722,6 @@ const Navbar = ({ toggleRed, setToggleRed }) => {
                 <ul className="flex items-center gap-3 xl:gap-5 text-[1vw] 2xl:text-xl cursor-pointer">
                   <li
                     key={item.id}
-                    // onMouseOver={() => navHoverFunc(item.id, item.refId)}
-                    // onMouseOut={() => setActiveBg(0)}
                     className={`${
                       activeBg === index ? "rainbow-text" : "text-white"
                     } text-white`}
@@ -762,16 +760,19 @@ const Navbar = ({ toggleRed, setToggleRed }) => {
                       gsapToggle();
                     }}
                   />
+                  <div className="border border-white rotate-45">
                   <svg
                     viewBox="0 0 100 100"
                     className=""
                     xmlns="http://www.w3.org/2000/svg"
+                    style={{rotate : "-45deg"}}
                   >
                     <circle cx="0" cy="0" r="0" />
                     <path class="line--1" d="M0 40h62c13 0 6 28-4 18L35 35" />
                     <path class="line--2" d="M0 50h70" />
                     <path class="line--3" d="M0 60h62c13 0 6-28-4-18L35 65" />
                   </svg>
+                  </div>
                 </label>
               </div>
             </div>

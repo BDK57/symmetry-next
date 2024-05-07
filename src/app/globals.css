@@ -419,16 +419,16 @@ ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.css-dev-only-do-not-o
   width: 400px !important;
 }
 
-ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.css-dev-only-do-not-override-zl9ks2:hover {
-  /* color: red !important; */
+ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.css-dev-only-do-not-override-1okl62o{
+  background-color: transparent !important;
 }
 
-.ul#rc-menu-uuid-20010-1-sub2-popup {
-  /* background-color: blue !important; */
+li.ant-menu-submenu.ant-menu-submenu-vertical{
+  width: 400px;
 }
 
-li.ant-menu-item.ant-menu-item-only-child {
-  /* background-color: red !important; */
+.ant-menu-sub{
+  background-color: transparent !important;
 }
 
 :where(
@@ -686,3 +686,81 @@ path {
     right: 150px !important;
   }
 }
+
+
+.hem #hamburger {
+  content: '';
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  background-image: linear-gradient(#000000, #000000), radial-gradient(circle at top right, rgba(13, 83, 189, 1), rgba(19, 176, 168, 1), rgba(21, 176, 60, 1), rgba(93, 156, 17, 1), rgba(242, 213, 0, 1));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: double 1px transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hem #hamburger svg {
+  width: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+
+.hem #hamburger .line {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hem #hamburger .line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+
+.hem #hamburger .line2 {
+  stroke-dasharray: 45 60;
+  stroke-width: 6;
+}
+
+.hem #hamburger .line3 {
+  stroke-dasharray: 30 207;
+  stroke-width: 6;
+}
+
+.hem #hamburger.open .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+
+.hem #hamburger.open .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+
+.hem #hamburger.open .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+

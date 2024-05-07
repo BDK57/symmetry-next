@@ -28,19 +28,19 @@ input{
 }
 
 /********  hamburger lines   ********/
-
+/* 
 .line--1 {
-  stroke-width: 2 !important; /* Adjust the value to make it smaller */
+  stroke-width: 2 !important; 
   --length: 14;
 }
 
 .line--2 {
-  stroke-width: 2 !important; /* Adjust the value to make it smaller */
+  stroke-width: 2 !important; 
   --length: 10;
 }
 
 .line--3 {
-  stroke-width: 2 !important; /* Adjust the value to make it smaller */
+  stroke-width: 2 !important; 
   --length: 6;
 }
 
@@ -96,7 +96,7 @@ label:hover circle {
       --offset: -50;
     }
   }
-}
+} */
 
 
 
